@@ -121,7 +121,7 @@
 
     <main>
         <section class="blog-post">
-            <img src="images/riddler1.jpg" alt="Riddle 1"> <!-- Add your preview image here -->
+            <img src="images/Riddle1.jpg" alt="Riddle 1"> <!-- Add your preview image here -->
             <div>
                 <h2>Week 1</h2>
                 <p class="date">Published on March 22, 2024</p>
@@ -131,7 +131,7 @@
         </section>
 
         <section class="blog-post">
-            <img src="images/riddler2.jpg" alt="Riddle 2"> <!-- Add your preview image here -->
+            <img src="images/Riddle1.jpg" alt="Riddle 2"> <!-- Add your preview image here -->
             <div>
                 <h2>Week 2</h2>
                 <p class="date">Published on March 29, 2024</p>
