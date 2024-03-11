@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Paper Trail</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Add your CSS file here -->
+    <style>
+        /* Inline styles for demonstration purposes. Move these styles to your CSS file. */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images/sun.png'); /* Add your background image here */
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background color */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background color */
+            border-radius: 10px;
+        }
+
+        .blog-post {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background color */
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .blog-post h2 {
+            color: #333;
+        }
+
+        .blog-post .date {
+            color: #666;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+        }
+
+        .blog-post img {
+            max-width: 150px;
+            max-height: 100px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .read-more {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .read-more:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            background-color: rgba(51, 51, 51, 0.7); /* Semi-transparent background color */
+            color: #fff;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Paper Trail</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Riddles.html">Riddles</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <img src="images/riddler1.jpg" alt="Riddle 1"> <!-- Add your preview image here -->
+            <div>
+                <h2>Week 1</h2>
+                <p class="date">Published on March 22, 2024</p>
+                <p>A single finger waves...</p>
+                <a href="Riddle1.html" class="read-more">Read More</a>
+            </div>
+        </section>
+
+        <section class="blog-post">
+            <img src="images/riddler2.jpg" alt="Riddle 2"> <!-- Add your preview image here -->
+            <div>
+                <h2>Week 2</h2>
+                <p class="date">Published on March 29, 2024</p>
+                <p>I keep my house in ship shape style...</p>
+                <a href="Riddle2.html" class="read-more">Read More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Paper Trail & Co</p>
+    </footer>
+</body>
+</html>
